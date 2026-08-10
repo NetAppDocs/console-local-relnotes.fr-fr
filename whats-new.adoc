@@ -21,12 +21,14 @@ Découvrez les modifications les plus récentes apportées aux fonctionnalités 
 [[10-august-2026]]
 == 10 août 2026
 
-Directive non résolue dans <stdin> - include::_include/console-local.adoc[] :leveloffset: +1
+
+
+[[netapp-console-local-deployment]]
+=== NetApp Console déploiement local
 
 
 
-[[introducing-netapp-console-local-deployment]]
-=== Présentation du déploiement local de la NetApp Console
+==== Présentation du déploiement local de la NetApp Console
 
 https://docs.netapp.com/us-en/console-local/concept-netapp-console-local.html["Découvrez le déploiement local de NetApp Console"].
 
