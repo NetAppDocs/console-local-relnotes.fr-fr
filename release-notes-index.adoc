@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: release-notes-index.html 
+keywords: release notes 
+summary: 'Consultez l"intégralité des notes de version concernant les fonctionnalités de déploiement local de NetApp Console et les services de données NetApp.' 
+---
+= Index des notes de version
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Consultez l'intégralité des notes de version pour les fonctionnalités de déploiement local de NetApp Console et les services de données NetApp.
+
+
+
+[[netapp-console-local-deployment]]
+== NetApp Console déploiement local
+
+* https://docs.netapp.com/us-en/console-local/whats-new.html["NetApp Console déploiement local"^]
+
+
+
+
+[[data-services]]
+== Services de données
+
+* https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["Sauvegarde et récupération"^]
+

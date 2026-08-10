@@ -1,0 +1,17 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, backup and recovery, ontap clusters, alerts, identity and access management, iam, recovery, netapp console local deployment, console local, local' 
+summary: Découvrez les dernières modifications apportées aux fonctionnalités et aux services de données qui font partie du déploiement local de la NetApp Console. 
+---
+= Modifications récentes dans le déploiement local de NetApp Console
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Découvrez les dernières modifications apportées aux fonctionnalités et aux services de données qui font partie du déploiement local de NetApp Console.
