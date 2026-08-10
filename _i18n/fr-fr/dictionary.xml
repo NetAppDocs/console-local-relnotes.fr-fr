@@ -71,7 +71,6 @@
   <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">Pour plus de détails sur NetApp Backup and Recovery, veuillez consulter<block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>.</block>
   <block id="2402a0b8d9aa0c3e1beaccf0071277cc" category="doc">Présentation du déploiement local de la NetApp Console</block>
   <block id="258ea65dfbe28db96b93f873d22fbf91" category="inline-link">Découvrez le déploiement local de NetApp Console</block>
-  <block id="ce81420610b8020a6acb739f0390a18d" category="paragraph"><block ref="2fadf269e2027f86d038dabc5375655c" category="inline-link-rx"></block>.</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">10 août 2026</block>
   <block id="31fa668bda8905b4ffe8beddc838ff33" category="paragraph">Directive non résolue dans &lt;stdin&gt; - include::_include/console-local.adoc[] :leveloffset: +1</block>
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">13 juillet 2026</block>
@@ -83,13 +82,9 @@
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">Dans cette version, VMware workloads introduit les améliorations suivantes :</block>
   <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*Prise en charge de la restauration vers un emplacement alternatif pour les machines virtuelles SAN* : Vous pouvez désormais restaurer les sauvegardes de machines virtuelles SAN vers un emplacement alternatif.</block>
   <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Prise en charge de la suppression de plusieurs sauvegardes* : Vous pouvez désormais supprimer plusieurs sauvegardes à la fois.</block>
-  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Améliorations des charges de travail Oracle Database</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">Cette version introduit les améliorations suivantes pour les charges de travail de la base de données Oracle :</block>
-  <block id="7ac62e0d250037c318f5fcf102e2e700" category="list-text">*Restauration et clonage de bases de données pluggables (PDB)* : le service Backup and Recovery for NetApp Console prend désormais en charge la restauration et le clonage de bases de données pluggables.</block>
-  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Vue d'ensemble de la protection des workloads Oracle Database</block>
-  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Pour plus de détails sur la protection des charges de travail Oracle Database, consultez<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
   <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*Prise en charge préliminaire des ressources isolées* : Si vous exécutez NetApp Backup and Recovery dans le déploiement local de NetApp Console, vous pouvez découvrir, protéger et restaurer des ressources Kubernetes isolées. Cette fonctionnalité est en préversion pour cette version.</block>
   <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">Dans cette version, les charges de travail ONTAP Volumes introduisent les améliorations suivantes :</block>
   <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*Prioriser les tâches de restauration par rapport aux sauvegardes* : Vous pouvez désormais donner la priorité aux tâches de restauration par rapport aux tâches de sauvegarde lors de la restauration de VMs ou de fichiers.</block>
   <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Découvrez les systèmes et volumes ONTAP sans activer Backup and Recovery* : Vous pouvez désormais découvrir les systèmes et volumes sans activer Backup and Recovery.</block>
+  <block id="d84803ce394c9284844fcf1a08967ee4" category="paragraph"><block ref="a11bdddbf642d1f60f3b9997ef8c00d9" category="inline-link-rx"></block>.</block>
 </blocks>
