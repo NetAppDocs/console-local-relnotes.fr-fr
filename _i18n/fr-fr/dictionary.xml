@@ -50,14 +50,9 @@
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">Cette version introduit les améliorations suivantes pour les charges de travail Kubernetes :</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Vue d'ensemble de la protection des workloads Kubernetes</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Pour plus de détails sur la protection des charges de travail Kubernetes, consultez <block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>.</block>
-  <block id="66591c0e71be05bd24e1869944b92db6" category="doc">Prise en charge améliorée de plusieurs compartiments pour toutes les charges de travail</block>
-  <block id="62ff0d9db122207756fd73342a3eb3ad" category="paragraph">NetApp Backup and Recovery prend désormais en charge la protection des charges de travail au sein d’un système comportant jusqu’à 100 compartiments répartis entre différents fournisseurs de cloud. ONTAP 9.19.1 ou une version ultérieure est requise pour prendre en charge plus de 6 compartiments par système.</block>
-  <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">Découvrez NetApp Backup and Recovery</block>
-  <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">Pour plus de détails sur NetApp Backup and Recovery, veuillez consulter<block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>.</block>
   <block id="2402a0b8d9aa0c3e1beaccf0071277cc" category="doc">Présentation du déploiement local de la NetApp Console</block>
   <block id="258ea65dfbe28db96b93f873d22fbf91" category="inline-link">Découvrez le déploiement local de NetApp Console</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">10 août 2026</block>
-  <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">13 juillet 2026</block>
   <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">Améliorations générales de NetApp Backup and Recovery</block>
   <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*Prise en charge du déploiement local de la NetApp Console* : Cette version de NetApp Backup and Recovery prend en charge le déploiement local de la NetApp Console en version préliminaire.</block>
   <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*Conservation des tâches pendant 90 jours* : NetApp Backup and Recovery conserve désormais les informations des tâches dans le Moniteur de tâches pendant 90 jours.</block>
@@ -120,4 +115,15 @@
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*Prise en charge de NetApp AFX* : Vous pouvez désormais protéger les volumes hébergés sur des clusters NetApp AFX à 2 et 4 nœuds.</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Prise en charge de Azure Entra ID pour Cloud Volumes ONTAP* : vous pouvez désormais utiliser l'authentification Microsoft Entra ID pour les configurations de compartiments de stockage objet Azure si vous ne souhaitez pas utiliser la clé d'accès du compte de stockage pour l'authentification Azure. Cette option est prise en charge pour Cloud Volumes ONTAP sur les systèmes Azure exécutant ONTAP 9.16.1 ou version ultérieure.</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">Amélioration des charges de travail VMware</block>
+  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">Dans cette version, les charges de travail Hyper-V introduisent les améliorations suivantes :</block>
+  <block id="b77bf9dc680cf2db1d8b3d5f6156585b" category="list-text">*NetApp MetroCluster support*: NetApp Backup and Recovery vous permet désormais de protéger les VM Hyper-V mises en miroir par NetApp MetroCluster.</block>
+  <block id="7ed9eebaad97e0f936b753873e6ff586" category="list-text">*Protection des disques étendus pour les VM SAN* : pour les configurations CIFS et SAN, vous pouvez désormais protéger chaque disque associé à chaque VM dans un groupe de protection. Cela inclut les fichiers répartis sur plusieurs volumes ONTAP ou systèmes de stockage ONTAP (disques étendus), ainsi que les fichiers limités à un seul emplacement.</block>
+  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">Cette version introduit l'amélioration suivante pour les charges de travail Oracle Database :</block>
+  <block id="82dd01a289cf98e9d962781faec1018b" category="paragraph">*Gestion automatique des journaux d'archivage* : lors des opérations de restauration et de clonage de base de données, NetApp Backup and Recovery détecte et monte automatiquement les journaux d'archivage requis, puis les démonte une fois l'opération terminée. Les sources de journaux de stockage primaire, secondaire et objet sont prises en charge.</block>
+  <block id="5f1a7ddd55d2a0b34003e08fe7cacdaf" category="section-title">Amélioration des charges de travail Microsoft SQL Server</block>
+  <block id="32d770e78ed41453037389dce2e33d9c" category="paragraph">Cette version introduit l'amélioration suivante pour les charges de travail Microsoft SQL Server:</block>
+  <block id="92337d8e70dfe880909b2051333e2fe4" category="paragraph">*Modification des licences* : les frais ne s’appliquent plus aux sauvegardes utilisant une architecture disque à disque ou disque à disque en mode fan-out. Les frais s’appliquent uniquement aux sauvegardes sur stockage objet, y compris celles utilisant une architecture 3-2-1 ou disque vers stockage objet.</block>
+  <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">Découvrez comment protéger les charges de travail Microsoft SQL Server avec NetApp Backup and Recovery</block>
+  <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Pour plus d'informations sur la protection des charges de travail Microsoft SQL Server, consultez<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>.</block>
+  <block id="e019cb225a4644922cdd06575b099710" category="section-title">12 octobre 2026</block>
 </blocks>
