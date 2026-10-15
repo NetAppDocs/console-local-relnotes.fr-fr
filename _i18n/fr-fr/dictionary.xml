@@ -126,4 +126,5 @@
   <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">Découvrez comment protéger les charges de travail Microsoft SQL Server avec NetApp Backup and Recovery</block>
   <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Pour plus d'informations sur la protection des charges de travail Microsoft SQL Server, consultez<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>.</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">12 octobre 2026</block>
+  <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*Filtrage personnalisé par plage de dates dans Job Monitor* : Vous pouvez désormais rechercher des tâches des 90 derniers jours en sélectionnant une date de début et une date de fin personnalisées à partir d’un calendrier dans Job Monitor.</block>
 </blocks>
