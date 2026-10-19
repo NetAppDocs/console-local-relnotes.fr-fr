@@ -127,4 +127,6 @@
   <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Pour plus d'informations sur la protection des charges de travail Microsoft SQL Server, consultez<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>.</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">12 octobre 2026</block>
   <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*Filtrage personnalisé par plage de dates dans Job Monitor* : Vous pouvez désormais rechercher des tâches des 90 derniers jours en sélectionnant une date de début et une date de fin personnalisées à partir d’un calendrier dans Job Monitor.</block>
+  <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Prise en charge d'Oracle Data Guard* : NetApp Backup and Recovery prend désormais en charge l'utilisation de groupes de protection pour protéger les bases de données principales et de secours qui utilisent Oracle Data Guard pour une haute disponibilité.</block>
+  <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">19 octobre 2026</block>
 </blocks>
